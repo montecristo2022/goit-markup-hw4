@@ -230,6 +230,8 @@ color: var(--primary-text-color);
 
     border-radius: 4px;
     padding: 10px 32px;
+
+    cursor: pointer;
    
  
 
@@ -250,7 +252,12 @@ color: var(--primary-text-color);
         border-radius: 4px;
 
         padding: 6px 22px;
-      
+      cursor: pointer;
+}
+
+
+.portfolio-button:hover, .portfolio-button:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .button-item {
@@ -503,6 +510,14 @@ margin-top: 30px;
 .workers-list {
     margin-right: 30px;
     background-color: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+
+
+
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+
 }
 
 .workers-list:last-child {
@@ -589,11 +604,9 @@ height: 120px;
 margin-bottom: 30px;
 }
 
-.link-instargam,
-.link-twitter,
-.link-facebook,
-.link-linkedin
+.link-instargam
 {
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -611,6 +624,8 @@ margin-bottom: 30px;
 {
     fill: #AFB1B8;
 }
+
+
 
 .feature-brands {
  margin-right: 30px;
@@ -630,7 +645,34 @@ margin-bottom: 30px;
     border-radius: 4px;
     border: 1px solid #afb1b8;
 }
-   
+
+
+.footer-title {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.14px;
+}
+
+   .footer-container {
+       text-align: center;
+       justify-content: center;
+       display: flex;
+   }
+
+.wrap-element:hover, .wrap-element:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.social-media {
+    display:flex;
+    justify-content:center;
+    
+}
+
+.social-media li+li {
+    margin-left: 10px;
+}
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */
 /* шрифт Roboto вес. Жирный 500. Мелкий 400 */

@@ -26,3 +26,13 @@ fill="#afb1b8" style="fill: var(--color4, #afb1b8)" --- инста это и н�
 fill="#afb1b8" style="fill: var(--color4, #afb1b8)"
 
 fill="#afb1b8" style="fill: var(--color4, #afb1b8)" - twitter
+
+<li>
+    <a href="">
+<swg>
+    <use></use>
+</swg>
+    </a>
+</li>
+
+box-shadow:
