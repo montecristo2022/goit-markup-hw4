@@ -36,3 +36,18 @@ fill="#afb1b8" style="fill: var(--color4, #afb1b8)" - twitter
 </li>
 
 box-shadow:
+
+instagram1
+fill="#fff" style="fill: var(--color1, #fff)"
+fill="#fff" style="fill: var(--color1, #fff)"
+
+.svg-instagram:hover,
+.svg-instagram:focus {
+fill: red;
+}
+
+.svg-instagram:hover,
+.svg-instagram:focus
+{
+background-color: #2196F3;
+}
