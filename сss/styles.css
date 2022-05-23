@@ -609,16 +609,17 @@ height: 120px;
 margin-bottom: 30px;
 }
 
-.link-instargam
-{
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50px;
-}
+
+.cosial-media {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+    }
+
+
+
 
 
 
@@ -672,13 +673,29 @@ margin-bottom: 30px;
 }
 
 .social-media {
-    display:flex;
-    justify-content:center;
-    
+    display: flex;
+    justify-content: center;
+
 }
 
 .social-media li+li {
     margin-left: 10px;
+}
+
+.social-media2 {
+    margin-left: 10px;
+}
+
+.link-instagram,
+.link-twitter,
+.link-facebook,
+.link-linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
 }
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */

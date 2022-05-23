@@ -51,3 +51,17 @@ fill: red;
 {
 background-color: #2196F3;
 }
+
+fill="#2196f3" brand 5
+
+    <li class="list">
+
+
+
+        <a href="https://www.instagram.com/" class="link-instagram">
+            <svg width="20" height="20" class="svg-instagram">
+                <use href="./images/icons.svg#icon-instagram1">
+                </use>
+            </svg>
+        </a>
+    </li>
