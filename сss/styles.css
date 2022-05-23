@@ -573,15 +573,20 @@ p {
     margin-bottom: 0;
 }
 
+.phone-icon,
 .envelope-icon {
     margin-right: 10px;
     fill: #757575;
    
 }
 
+.phone-icon:hover,
 .envelope-icon:hover{
 fill: #2196F3;
 }
+
+
+
 
 .section-fourth {
     padding-top: 94px;
