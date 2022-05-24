@@ -696,6 +696,25 @@ margin-bottom: 30px;
     height: 44px;
     border-radius: 50%;
 }
+
+
+.brands {
+    fill: #AFB1B8;
+}
+
+.instagram2,
+.twitter2,
+.linkedin2,
+.facebook2 {
+fill: #FFFFFF;
+}
+
+.footer-media {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    
+}
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */
 /* шрифт Roboto вес. Жирный 500. Мелкий 400 */
