@@ -32,33 +32,33 @@
             </a>
 
             <ul class="site-nav list">
-                <li class="item"><a href="./index.html" class="nav-link link">Студия</a></li>
-                <li class="item"><a href="" class="nav-link current link">Портфолио</a></li>
+                <li class="item"><a href="./index.html" class="nav-link  link">Студия</a></li>
+                <li class="item"><a href="./portfolio.html" class="current nav-link link">Портфолио</a></li>
                 <li class="item"><a href="" class="nav-link link">Контакты</a></li>
             </ul>
         </nav>
 
 
         <ul class="contact-nav list">
+
+
             <li class="item">
-                
-                
-                
-                <svg class="envelope-icon" width="16" height="12" class="svg-envelope">
-                    <use href="./images/sprite.svg#icon-envelope"></use>
-                </svg>
-                
-                
-                <a href="mailto:info@devstudio.com" class="contact-link link">info@devstudio.com</a></li>
+
+
+                <a href="mailto:info@devstudio.com" class="contact-link link"><svg class="contact-icon" width="16"
+                        height="12">
+                        <use href="./images/sprite.svg#icon-envelope"></use>
+                    </svg>info@devstudio.com</a>
+            </li>
 
 
 
-<svg class="phone-icon" width="16" height="12"  class="svg-phone">
-    <use href="./images/sprite.svg#icon-phone"></use>
-</svg>
 
 
-            <li class="item"><a href="tel:+380961111111" class="contact-link link">+380 96 111 11 11</a></li>
+            <li class="item"><a href="tel:+380961111111" class="contact-link link">
+                    <svg class="contact-icon" width="10" height="16">
+                        <use href="./images/sprite.svg#icon-phone"></use>
+                    </svg>+380 98 111 11 11</a></li>
         </ul>
     </div>
 
@@ -66,10 +66,10 @@
         
        
 
-    </header>
+   
   
     <main>
-        <section class="portfolio-section">
+        <section class="portfolio-section section">
     
            
 
@@ -79,88 +79,100 @@
     
     <ul class="list list-button">
     
-        <li class="button-item"><button class="portfolio-button currently-active">Все</button></li>
-        <li class="button-item"><button class="portfolio-button" >Веб-сайти</button></li>
-        <li class="button-item"><button class="portfolio-button">Приложения</button></li>
-        <li class="button-item"><button class="portfolio-button">Дизайн</button></li>
-        <li class="button-item"><button class="portfolio-button">Маркетинг</button></li>
+        <li class="button-item"><button type="button" class="portfolio-button currently-active">Все</button></li>
+        <li class="button-item"><button type="button" class="portfolio-button" >Веб-сайти</button></li>
+        <li class="button-item"><button type="button" class="portfolio-button">Приложения</button></li>
+        <li class="button-item"><button type="button" class="portfolio-button">Дизайн</button></li>
+        <li class="button-item"><button type="button" class="portfolio-button">Маркетинг</button></li>
      </ul>
    
    
 
  
-    <ul class="list wrap-list">
+    <ul class="list card-set ">
     
-        <li class="wrap-element">
-        <img src="./images/imgproject1.jpg" alt="Технокряк" width="370">
-        <div class="portfolio-description">
+        <li  class="wrap-element card-item">
+      <a class="link wrap-link" href=""><img src="./images/imgproject1.jpg" alt="Технокряк" width="370">
+    <div class="portfolio-description">
         <h2 class="portfolio-title">Технокряк</h2>
         <p class="portfolio-text">Веб-сайт</p>
-        </div>
+    </div></a>
         </li>
 
-        <li class="wrap-element">
-            <img src="./images/imgproject2.jpg" alt="Постер" width="370">
-            <div class="portfolio-description">
-            <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-            <p class="portfolio-text">Дизайн</p>
-            </div>
+        <li class="wrap-element card-item">
+<a class="link wrap-link" href=""><img src="./images/imgproject2.jpg" alt="Постер" width="370">
+<div class="portfolio-description">
+    <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+    <p class="portfolio-text">Дизайн</p>
+</div></a>
         </li>
 
-        <li class="wrap-element">
-            <img src="./images/imgproject3.png" alt="Ресторан морепродуктов" width="370">
-            <div class="portfolio-description">
+        <li class="wrap-element card-item">
+           <a class="link wrap-link" href=""><img src="./images/imgproject3.png" alt="Ресторан морепродуктов" width="370">
+        <div class="portfolio-description">
             <h2 class="portfolio-title">Ресторан Seafood</h2>
             <p class="portfolio-text">Приложение</p>
-            </div>
+        </div></a>
         </li>
 
-        <li class="wrap-element">
+        <li class="wrap-element card-item">
+              <a class="link wrap-link" href="">
             <img src="./images/imgproject4.png" alt="Проект прайм" width="370">
             <div class="portfolio-description">
             <h2 class="portfolio-title">Проект Prime</h2>
             <p class="portfolio-text">Маркетинг</p>
             </div>
+            </a>
         </li>
 
-        <li class="wrap-element">
+        <li class="wrap-element card-item">
+              <a class="link wrap-link" href="">
             <img src="./images/imgproject5.png" alt="Проект Боксы" width="370">
             <div class="portfolio-description">
             <h2 class="portfolio-title">Проект Boxes</h2>
             <p class="portfolio-text">Приложение</p>
             </div>
+            </a>
         </li>
 
-        <li class="wrap-element">
+        <li class="wrap-element card-item">
+              <a class="link wrap-link" href="">
             <img src="./images/imgproject6.png" alt="Воображение без границ" width="370">
             <div class="portfolio-description">
             <h2 class="portfolio-title">Inspiration has no Borders</h2>
             <p class="portfolio-text">Веб-Сайт</p>
             </div>
+            </a>
         </li>
 
-        <li class="wrap-element">
+        <li class="wrap-element card-item">
+              <a class="link wrap-link" href="">
             <img src="./images/imgproject7.png" alt="Издание лимитированной версии" width="370">
             <div class="portfolio-description">
             <h2 class="portfolio-title">Издание Limited Edition</h2>
             <p class="portfolio-text">Дизайн</p>
         </div>
+        </a>
         </li>
 
-        <li class="wrap-element">
+        <li class="wrap-element card-item">
+              <a class="link wrap-link" href="">
             <img src="./images/imgproject8.png" alt="Проект лаб" width="370">
             <div class="portfolio-description">
            <h2 class="portfolio-title">Проект LAB</h2>
             <p class="portfolio-text">Маркетинг</p>
-            <div>
+            </div>
+                </a>
         </li>
 
-        <li class="wrap-element">
+        <li class="wrap-element card-item">
+              <a class="link wrap-link" href="">
             <img src="./images/imgproject9.png" alt="Развивающийся бизнес" width="370">
         <div class="portfolio-description">
        <h2 class="portfolio-title">Growing Business</h2>
        <p class="portfolio-text">Приложение</p>
     </div>
+    </a>
         </li>
     </ul>
 </div>
@@ -168,64 +180,87 @@
     </main>
 
 
-<footer class="footer">
-    <div class="container">
-    <a href="" class="logo">Web<span class="accent">Studio</span></a>
 
-    <address">
-        <ul class="footer-contact">
-            <li class="footer-contact-item" ><a href="" class="footer-nav-adress link">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li class="footer-contact-item" ><a href="mailto:info@example.com" class="contact-link link">info@example.com</a></li>
-            <li class="footer-contact-item" ><a href="tel:+380981111111" class="contact-link link">+38 098 111 11 11</a></li>
-        </ul>
-    </address>
-    </div>
+    <footer class="footer">
+    
+        <div class="container footer-container">
+    
+    
+    
+    
+            <div class="footer-item">
+                <a href="" class="logo">Web<span class="accent">Studio</span></a>
+                <address>
+                    <ul class="footer-contact list">
+    
+                        <li class="footer-contact-item"><a href="https://goo.gl/maps/GeF5nWyXuvvMnV2t5" target="_blank"
+                                rel="noreferrer noopener nofollow" class="adress-link link">г. Киев, пр-т Леси
+                                Украинки, 26</a></li>
+                        <li class="footer-contact-item"><a href="mailto:info@example.com"
+                                class="adress-link link">info@example.com</a></li>
+                        <li class="footer-contact-item"><a href="tel:+380981111111" class="adress-link link">+38 098 111 11
+                                11</a></li>
+    
+    
+                    </ul>
+                </address>
+            </div>
+    
+    
+            <div class="footer-item">
+                <h2 class="footer-title">Присоединяйтесь</h2>
+    
+                <ul class="cosial-media list">
+                    <li class="social-media2">
+                        <a href="https://www.instagram.com/" class="link-instagram">
+                            <svg width="20" height="20" class="svg-instagram">
+                                <use href="./images/icons.svg#icon-instagram-first"> </use>
+                            </svg>
+                        </a>
+                    </li>
+    
+                    <li class="social-media2">
+                        <a href="https://twitter.com/?lang=ru" class="link-twitter">
+                            <svg width="20" height="20" class="svg-twitter">
+                                <use href="./images/icons.svg#icon-twitter-first"> </use>
+                            </svg>
+                        </a>
+                    </li>
+    
+    
+                    <li class="social-media2">
+                        <a href="https://www.facebook.com/" class="link-facebook">
+                            <svg width="20" height="20" class="svg-facebook">
+                                <use href="./images/icons.svg#icon-facebook-first"> </use>
+                            </svg>
+                        </a>
+                    </li>
+    
+    
+                    <li class="social-media2">
+                        <a href="https://ru.linkedin.com/" class="link-linkedin">
+                            <svg width="20" height="20" class="svg-linkedin">
+                                <use href="./images/icons.svg#icon-linkedin-first"> </use>
+                            </svg>
+                        </a>
+                    </li>
+    
+                </ul>
+    
+    
+    
+    
+    
+            </div>
+    
+    
+    
+        </div>
+    </footer>
 
-<div class="footer-container">
-    <h2 class="footer-title">Присоединяйтесь</h2>
-
-    <li class="list">
-        <a href="https://www.instagram.com/" class="footer-media">
-            <svg width="20" height="20" class="instagram2">
-                <use href="./images/icons.svg#icon-instagram-first"></use>
-            </svg>
-        </a>
-    </li>
-
-    <li class="list">
-        <a href="https://twitter.com/" class="footer-media">
-            <svg width="20" height="20" class="twitter2">
-                <use href="./images/icons.svg#icon-twitter-first"></use>
-            </svg>
-        </a>
-    </li>
-
-    <li class="list">
-        <a href="https://uk-ua.facebook.com/" class="footer-media">
-            <svg width="20" height="20" class="facebook2">
-                <use href="./images/icons.svg#icon-facebook-first"></use>
-            </svg>
-        </a>
-    </li>
-
-    <li class="list">
-        <a href="https://ru.linkedin.com/" class="footer-media">
-            <svg width="20" height="20" class="linkedin2">
-                <use href="./images/icons.svg#icon-linkedin-first"></use>
-            </svg>
-        </a>
-    </li>
 
 
 
-
-
-</div>
-
-
-
-
-</footer>
 </body>
 
 </html>
