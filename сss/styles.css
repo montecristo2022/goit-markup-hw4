@@ -613,7 +613,7 @@ margin-bottom: 30px;
 
         display: flex;
         justify-content: center;
-        align-items: center;
+            align-items: center;
   
     }
 
@@ -662,9 +662,10 @@ margin-bottom: 30px;
 }
 
    .footer-container {
+ 
        text-align: center;
        justify-content: center;
-       display: flex;
+    display: flex;
    }
 
 .wrap-element:hover, .wrap-element:focus {
@@ -673,7 +674,7 @@ margin-bottom: 30px;
 
 .social-media {
     display: flex;
-    justify-content: center;
+        justify-content: center;
 
 }
 
@@ -748,6 +749,8 @@ fill: #FFFFFF;
     height: 44px;
     width: 44px;
     border-radius: 50%;
+
+    background-color: rgba(255, 255, 255, 0.1);
     
 }
 
