@@ -698,6 +698,37 @@ margin-bottom: 30px;
 }
 
 
+.link-instagram:hover,
+.link-instagram:focus,
+.link-twitter:hover,
+.link-twitter:focus,
+.link-facebook:hover,
+.link-facebook:focus,
+.link-linkedin:hover,
+.link-linkedin:focus {
+    background-color: #2196F3;
+}
+
+.link-instagram:hover .svg-instagram,
+.link-twitter:hover .svg-twitter,
+.link-facebook:hover .svg-facebook,
+.link-linkedin:hover .svg-linkedin,
+.link-instagram:focus .svg-instagram,
+.link-twitter:focus .svg-twitter,
+.link-facebook:focus .svg-facebook,
+.link-linkedin:focus .svg-linkedin {
+    fill: #ffffff;
+}
+
+
+.link-brands:hover .brands,
+.link-brands:focus .brands {
+fill: #2196F3;
+}
+
+
+
+
 .brands {
     fill: #AFB1B8;
 }
@@ -709,11 +740,29 @@ margin-bottom: 30px;
 fill: #FFFFFF;
 }
 
+
+
+
+
 .footer-media {
     height: 44px;
     width: 44px;
     border-radius: 50%;
     
+}
+
+
+.footer-media:hover,
+.footer-media:focus {
+    background-color: #2196F3
+}
+
+
+
+.svg-phone,
+.svg-ebvelope 
+{
+margin-right: 10px;
 }
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */
